@@ -1,0 +1,14 @@
+{
+  "Name": "Fish ON",
+  "Author": "AnimatedRice",
+  "Version": "1.0.0",
+  "MinimumApiVersion": "4.0.0",
+  "Description": "Fish ON!",
+  "UniqueID": "AnimatedRice.fishON",
+  "UpdateKeys": [
+    "GitHub:AnimatedRice/FishON"
+  ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

@@ -1,0 +1,41 @@
+{
+    "Format": "2.0.0",
+    "ConfigSchema": {
+        "SoundON": {
+            "AllowValues": "true, false",
+            "Default": "true"
+        }
+    },
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/AudioChanges",
+            "Entries": {
+                "FishHit": {
+                    "ID": "FishHit",
+                    "Category": "Sound",
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: assets/fish_on.ogg}}"
+                    ],
+                    "StreamedVorbis": false,
+                    "Looped": false
+                }
+            },
+            "When": {
+                "SoundON": true
+            }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "LooseSprites/Cursors",
+            "FromFile": "assets/FishOn.png",
+            "ToArea": {
+                "X": 608,
+                "Y": 1904,
+                "Width": 80,
+                "Height": 48
+            },
+            "PatchMode": "Replace"
+        }
+    ]
+}
