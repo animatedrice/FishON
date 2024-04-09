@@ -6,3 +6,11 @@ Adds a Fish ON sound and text to fishing.
 
 ### Configuration
 * ```SoundON```: true/false (default true). If true it replaces the normal catching sound with "Fish ON". If false it will only show "Fish ON!" instead of the "Hit!" text.
+
+### Requirements
+* SMAPI (4.0 or up)
+* Content Patcher
+
+### Download
+
+[Download](https://github.com/animatedrice/FishON/releases) 
